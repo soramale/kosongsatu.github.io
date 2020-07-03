@@ -1,0 +1,327 @@
+
+@media all and (max-width: 1170px) {
+    .menu-icon{
+      display:none;
+    }
+
+    .main-text {
+            width: 50%;
+            display: inline-block;
+            padding: 0 30px;
+        }
+    .main-text h2 {
+        font-size: 24px;
+    }
+    .top-wrapper{
+      padding:100px 0 10px 0;
+    }
+    .top-wrapper img {
+        float: right;
+        height:200px
+    }
+
+    .btn {
+        padding: 10px 20px;
+        color: white;
+        display: inline-block;
+        border-radius: 30px;
+        text-align: center;
+    }
+    .body-entice-box{
+      display:inline-block;
+      width:100%;
+    }
+    .body-entice-split{
+      display:none;
+    }
+    footer, .footer-wrapper {
+        width: 100%;
+    }
+
+    .footer-wrapper-top {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-wrapper {
+        padding-top: 10px;
+        height:auto;
+    }
+
+    .footer-wrapper-logo {
+        margin: 0 auto;
+    }
+
+    .footer-wrapper-context {
+        display: none;
+    }
+
+    .footer-wrapper-navigation {
+        justify-content: center;
+    }
+
+
+    .footer-wrapper-navigation ul {
+        text-align: center;
+    }
+
+    .footer-wrapper-extras {
+        flex-direction: column;
+    }
+
+    .extras {
+        text-align: center;
+        margin: 5px 0 10px;
+    }
+    .home-details-one-illustration{
+      display:flex;
+    }
+    .home-details-one-text{
+      float:left;
+    }
+    .illustration-map {
+    	flex-direction: column;
+      flex:auto;
+      width:100%;
+      height:100%;
+      margin-left:15px;
+
+    }
+    .lessons{
+      display: flex;
+      flex-wrap: wrap;
+      height:auto;
+    }
+    .lesson-wrapper{
+      display:block;
+    }
+    .lesson{
+      clear:left;
+      width:50%;
+      display: inline-block;
+      flex:auto;
+      margin: 0 auto;
+      position:relative;
+    }
+    .lesson img{
+      margin: 0 auto;
+      display: inline-block;
+    }
+    .lessons p{
+      text-align: center;
+      padding:20px 50px;
+      margin:0 auto;
+    }
+
+    .heading h2{
+      width:70%;
+      margin:0 auto;
+      line-height: 1.15;
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
+  .header-right{
+    padding:0 0;
+  }
+
+
+}
+
+  /* Untuk Smartphone */
+  @media all and (max-width: 706px) {
+    .container{
+      padding: 0  0;
+    }
+    .header{
+      width:100%;
+    }
+
+    .header-list li{
+      display:none;
+      float:none;
+    }
+    .header-list{
+      position:relative;
+    }
+    .header-right{
+      display:none;
+    }
+    .menu-icon{
+      display:block;
+    }
+    .main-text {
+        width: 100%;
+        display: inline-block;
+        padding: 0 30px;
+    }
+
+    .top-wrapper img {
+        display : none;
+      }
+
+    .top-wrapper {
+        padding: 100px 0 100px 0;
+    }
+
+    .main-text h2 {
+      font-size : 30px;
+      line-height : 36px;
+      text-align: center;
+    }
+
+    .main-text p {
+      font-size : 20px;
+      line-height : 20px;
+      text-align: center;
+    }
+
+    .btn {
+        width : 100%;
+        margin-top: 6px;
+    }
+    .body-entice-title {
+        font-size: 17px;
+        top: 30px;
+        line-height:1.15;
+    }
+    .body-entice-box{
+      display:inline-block;
+      width:100%;
+    }
+    .body-entice-split{
+      display:none;
+    }
+
+    .body-entice-button-wrapper {
+        margin-top: 80px;
+        position:static;
+    }
+    .home-details-one-illustration{
+      display:flex;
+      flex-direction: column;
+    }
+    .home-details-one-wrapper{
+      margin-left:20px;
+
+    }
+    .home-details-one-text{
+      width:auto;
+      margin: 20px 0;
+    }
+    .home-details-one{
+      box-shadow:none;
+    }
+    .footer-btn {
+        font-size: 13px;
+    }
+
+    footer, .footer-wrapper {
+        width: 100%;
+    }
+
+    .footer-wrapper-top {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-wrapper {
+        padding-top: 10px;
+        height:auto;
+    }
+
+    .footer-wrapper-logo {
+        margin: 0 auto;
+    }
+
+    .footer-wrapper-navigation {
+        display: flex;
+        flex-wrap: wrap;
+        font-weight: bolder;
+    }
+
+    .footer-wrapper-navigation ul {
+        width: 50%;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .footer-wrapper-navigation ul li {
+        padding: 10px;
+    }
+
+    .social-media {
+        display: none;
+    }
+
+    .footer-wrapper-context {
+        margin: 0 auto;
+    }
+
+    .footer-wrapper-context span {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .footer-wrapper-context .bendera {
+        margin-left: 15px;
+    }
+
+    .footer-wrapper-context .bahasa {
+        font-weight: bolder;
+    }
+
+    .footer-wrapper-extras {
+        flex-direction: column;
+    }
+
+    .extras {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .lesson{
+      clear:left;
+      width:100%;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      position:relative;
+    }
+    .lesson img{
+      margin: 0 auto;
+      width:100%;
+      display: block;
+    }
+
+    .heading h2{
+      width:70%;
+      margin:0 auto;
+      line-height: 1.15;
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+    .txt-contents{
+      padding:20px 0 20px 0;
+    }
+    .home-details-one-illustration{
+      display:none;
+    }
+    .home-details-one{
+      width:100%;
+      clear:left;
+      margin:0;
+    }
+    .home-details-one-text-explain{
+      padding-right: 10px;
+    }
+  }
+@media all and (max-width:270px){
+  .footer-btn{
+    width:100%;
+    margin-bottom:10px;
+  }
+  .body-entice-box{
+    height:auto;
+  }
+
+}
